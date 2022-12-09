@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav {
     background-color: grey;
@@ -7,6 +9,7 @@ nav {
     min-height: 4rem;
     justify-content: center;
 }
+
 ul {
     width: 40%;
     display: flex;
@@ -14,8 +17,34 @@ ul {
     align-items: center;
     list-style: none;   
 }
+#landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#aboutMeSection {
+   margin-left: 100px;
+   margin-top: 90px;
+}
+img {
+    border-radius: 50%;;
+    border: 2px solid black;
+    height: 25rem;
+}
+h1 {
+    font-size: 2rem;
+
+}
+h2 {
+    font-size: 1.5rem;
+
+}
+#projectH2 {
+    margin-bottom: -50px;
+}
 #skills {
     list-style: disc;
+    font-size: 1.4rem;
 } 
 a {
     color: black;
@@ -32,8 +61,18 @@ section {
 #aboutMe,#experience {
     height: 400px;
     width: 400px;
-    border: 2px solid black;
-    
+   /* border: 2px solid black;*/
+    text-align: start;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+#experience {
+    margin-bottom: 100px;
+}
+#skillsSection {
+    margin-top: 155px;
+    margin-bottom: 250px;
 }
 #projects {
     display: flex;
@@ -46,6 +85,9 @@ section {
     height: 200px;
     width: 200px;
     border: 2px solid black;
+}
+.sketchyWeather {
+    background-image: url('./assets/sketchyWeather.png');
 }
 footer {
     background-color: grey;

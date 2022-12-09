@@ -12,31 +12,33 @@
 <body>
     <nav>
         <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#landing">About Me</a></li>
+            <li><a href="#experienceSection">Experience</a></li>
+            <li><a href="#skillsSection">Skills</a></li>
+            <li><a href="#projectH2">Projects</a></li>
+            <li><a href="#experienceSection">Contact</a></li>
         </ul>
     </nav>
-    <section>
+    <section id="title">
         <h1>Jack O'Hara</h1>
-        <h2>ESL Teacher and Aspiring Web Developer</h2>
-        <img src="profile-pic.jpg" alt="picture of Jack in front of a stine wall">
+        <h2 id="subtitle">Web Developer</h2>
+
     </section>
-    <section>
-        <h2>About Me</h2>
-        <div id="aboutMe">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nesciunt laudantium deserunt atque hic ducimus! Quis repudiandae rem minima consequuntur! Dignissimos deserunt atque sequi cupiditate alias porro ut itaque voluptas.
+    <section id="landing">
+        <div>
+            <img src="profile-pic.jpg" alt="picture of Jack in front of a stine wall">
+        </div>
+        <div id="aboutMeSection">
+            <h2>About Me</h2>
+            <div id="aboutMe">
+                I am an English as a second language teacher looking to transition into web development. I have been
+                self-studying front-end web development for the past year using online programming curriculums such as
+                FreeCodeCamp and The Odin Project. I have also recently graduated from a web development boot camp with
+                the organization Generation USA.
+            </div>
         </div>
     </section>
-    <section>
-        <h2>Experience</h2>
-        <div id="experience">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni nesciunt laudantium deserunt atque hic ducimus! Quis repudiandae rem minima consequuntur! Dignissimos deserunt atque sequi cupiditate alias porro ut itaque voluptas.
-        </div>
-    </section>
-    <section>
+    <section id="skillsSection">
         <h2>Skills</h2>
         <ul id="skills">
             <li>HTML & CSS</li>
@@ -46,10 +48,29 @@
             <li>Spanish</li>
         </ul>
     </section>
+    <h2 id="projectH2">Projects</h2>
     <section id="projects">
-        <a href="https://github.com/JackBayly/sketchy-weather" target="_blank"><div class="project">Sketchy Weather</div></a>
-        <a href="https://github.com/JackBayly/group-4-project" target="_blank"><div class="project">To-Do List</div></a>
-        <a href="https://github.com/JackBayly/tic_tac_toe" target="_blank"><div class="project">Tic-Tac-Toe</div></a>
+        <a href="https://github.com/JackBayly/sketchy-weather" target="_blank" class="sketchyWeather">
+            <div class="project">Sketchy Weather</div>
+        </a>
+        <a href="https://github.com/JackBayly/group-4-project" target="_blank">
+            <div class="project">To-Do List</div>
+        </a>
+        <a href="https://github.com/JackBayly/tic_tac_toe" target="_blank">
+            <div class="project">Tic-Tac-Toe</div>
+        </a>
+    </section>
+    <section id="experienceSection">
+        <h2>Experience</h2>
+        <div id="experience">
+            I knew I wanted to one day get into tech as a professional, specifically in web development, since I took my
+            first technical writing course at Georgia State University and was exposed to HMTL, CSS, and JavaScript. I
+            later worked as a technical writing intern during my senior year. <br><br> While I eventually went on to
+            teach English as a foreign language in Spain, my passion is in tech, which is why I moved back to Atlanta,
+            one of the major tech hub cities in America and my hometown. I'm a proud optimist and more than eager to
+            learn new technologies. If that sounds like someone you'd want to work with as a junior developer, feel free
+            to reach out!
+        </div>
     </section>
     <footer>
         <ul>
