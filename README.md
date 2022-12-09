@@ -1,4 +1,4 @@
-#Portfolio
+<h1>Web Development Porfolio</h1>
 <p>My portfolio as part of the Generation USA web development bootcamp. </p>
 <p>Here is a live demo: https://jackbayly.github.io/portfolio-generation/ </p>
 <h2>Technologies Used</h2>
